@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Generador</title>
+</head>
+<input type="checkbox" id="letras" checked>Letras <input type="checkbox" id="numeros" checked>Numeros <input type="checkbox" id="caracteres">Caracteres<br>
+<input type="radio" id="mayusculas" name="tipoletras">Mayusculas <input type="radio" id="minusculas" name="tipoletras">Minusculas <input type="radio" id="ambos" name="tipoletras" checked>Ambos<br><br>
+Digitos:<br>
+<input type="number" id="numbers" min="1" max="99" id="digits" value="10">
+<button type="button" onclick="generarCodigo()">Generar</button><br>
+<textarea id="phrase" rows="5" cols="33" readonly></textarea><br>
+<button onclick="copiar()" id="copiar">Copiar</button>
+
+<body>
+    <script src="codigo.js"></script>
+</body>
+</html>
